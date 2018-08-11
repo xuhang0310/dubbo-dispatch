@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.divdw {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 260px;
+	height: 28px;
+	z-index: 9999
+}
+.showhide {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: 60px;
+	height: 28px;
+	z-index: 9999
+}
+.showhide a{
+	color:red;
+	font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.grouping{
+	overflow:hidden;
+	font-size:12px;}
+.grouping h1{
+	font-size:12px;
+    height: 22px;
+    line-height: 22px;
+    padding: 2px 10px;
+	background-color:#eff7fd;}
+.grouping input[type="checkbox"]{
+	margin:0 5px;
+	width:auto;
+	border:0;
+	vertical-align:middle;}
+.grouping ul{
+	padding:10px 0 10px 30px;
+	overflow:hidden;}
+.grouping ul li{
+	float:left;
+	width:120px;
+    height: 24px;
+    line-height: 24px;}

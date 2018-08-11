@@ -1,0 +1,42 @@
+#s-prompt, #e-prompt, #f-prompt, #t-prompt{
+	display: block;
+	padding:10px 20px 10px 50px;
+	position:absolute;
+	left:45%;
+	z-index:99999;
+	display:none;
+	border-width:2px;
+	border-style:solid;
+	
+	background-repeat: no-repeat;
+	background-position: 20px 12px;
+}
+#s-prompt {
+	color: #336801;
+	border-color: #BBDF8D;
+	background-color: #EAF7D9;
+	background-image: url(../images/icons16/tick.png);
+}
+#e-prompt {
+	color: #A20000;
+	border-color: #F8ACAC;
+	background-color: #FFD1D1;
+	background-image: url(../images/icons16/cross.png);
+}
+#f-prompt {
+	color: #A20000;
+	border-color: #F8ACAC;
+	background-color: #FFD1D1;
+	background-image: url(../images/icons16/cross.png);
+}
+#t-prompt{
+	color: #FF6600;
+	border-color: #F7AF68;
+	background-color: #FEE4CD;
+	background-image: url(../images/icons16/exclamation-circle2.png);
+}
+#t-prompt a{
+	font-size: 12px;
+	color: #039;
+	text-decoration: underline;
+	}

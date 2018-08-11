@@ -1,0 +1,70 @@
+* { padding:0px auto; margin:0px auto;}
+body , html	{ width:100%; height:100%; font-family:"微软雅黑";}
+
+.weather_box	{ width:100%; height:350px; background:#277ac5;}
+.weather_tit	{ width:100%; height:50px; background: rgba(0,0,0,0.2);}
+.tit_font	{ color:#fff; font-size:24px; position:absolute; top:5px; left:10px; }
+.tit_wrp	{ position:absolute; top:10px; right:10px; }
+.tit_wrp a	{ font-size:12px; }
+.weather_btn	{ display:inline-block; padding:4px 12px ; background:#526b82; color:#fff; border:1px solid #4c4c4c; cursor:pointer;}
+.weather_jt	{ width:100%; height:300px; min-width:800px;}
+.jt_fl	{ width:50%; height:300px; float:left; }
+.jt_tit	{ width:100%; min-width:500px; margin-top:35px; color:#fff; font-size:18px; text-align:center;}
+.jt_tw	{ width:80%; min-width:500px; margin-left:20%; margin-top:20px; text-align:center; height:200px; color:#fff; background-size:100px !important;}
+.jt_tw p	{ font-size:50px; margin-bottom:10px; }
+.jt_tw	span	{ font-size:24px;}
+.wt_bor	{ height:250px; margin-top:20px; min-width:430px; width:80%; background: rgba(0,0,0,0.4); border-radius:6px;  }
+.wt_tit	{ height:50px; color:#fff; line-height:50px; text-align:right; font-size:16px; width:96%; margin: 0px 2% ; border-bottom:1px solid #b2b2b2;}
+.wt_con	{ height:190px; width:96%; margin:0px 2%; }
+.wt_mg	{ width:33%; height:190px; border-right:1px solid #b2b2b2; float:left; text-align:center; color:#fff; background-position: 50px 40px !important;}
+.wt_mg	p	{  font-size:16px;  margin-top:10px;}
+.wt_mg div	{ font-size:14px; margin-top:80px; line-height:24px;}
+
+.wt_previews	{ width:100%; min-width:800px; box-sizing: border-box;  height:250px; border:1px solid #BDC2C5; border-top:0px; box-sizing: border-box; padding-left:1%;}
+.wt_pre	{ width:19%; height:226px; margin-top:14px; color:#333; font-size:14px; border-right:1px solid #DBDBDB; float:left; text-align:center; background-position: 50px 40px !important; }
+.wt_pre	p { margin-top:10px;}
+.wt_pre div	{ margin-top:80px; line-height:26px}
+.wt_pre div span	{ font-weight:bold;}
+
+
+
+.cloudy1_night 	{ background:url(../../images/weather/cloudy1_night.png) no-repeat   }    
+.cloudy1		{ background:url(../../images/weather/cloudy1.png) no-repeat   }		
+.cloudy2_night	{ background:url(../../images/weather/cloudy2_night.png) no-repeat   }		
+.cloudy2		{ background:url(../../images/weather/cloudy2.png) no-repeat   }
+.cloudy3_night	{ background:url(../../images/weather/cloudy3_night.png) no-repeat  }	
+.cloudy3		{ background:url(../../images/weather/cloudy3.png) no-repeat   }
+
+.cloudy4_night  { background:url(../../images/weather/cloudy4_night.png) no-repeat   }   
+.cloudy4		{ background:url(../../images/weather/cloudy4.png) no-repeat   }
+.cloudy5		{ background:url(../../images/weather/cloudy5.png) no-repeat   }
+.fog_night		{ background:url(../../images/weather/fog_night.png) no-repeat   }
+.fog		    { background:url(../../images/weather/fog.png) no-repeat   } 
+.hail		    { background:url(../../images/weather/hail.png) no-repeat   }
+
+.light_rain    { background:url(../../images/weather/light_rain.png) no-repeat   } 
+.light_rain   	{ background:url(../../images/weather/light_rain.png) no-repeat   }
+.mist_night   	{ background:url(../../images/weather/mist_night.png) no-repeat   }	
+.mist   		{ background:url(../../images/weather/mist.png) no-repeat  }
+.overcast   	{ background:url(../../images/weather/overcast.png) no-repeat   }	
+.shower1_night  { background:url(../../images/weather/shower1_night.png) no-repeat   } 	
+.shower1   		{ background:url(../../images/weather/shower1.png) no-repeat   }
+.shower2_night  { background:url(../../images/weather/shower2_night.png) no-repeat  } 		
+.shower2   		{ background:url(../../images/weather/shower2.png) no-repeat   }
+.shower3   		{ background:url(../../images/weather/shower3.png) no-repeat   }
+.sleet   		{ background:url(../../images/weather/sleet.png) no-repeat  }
+.snow1_night   	{ background:url(../../images/weather/snow1_night.png) no-repeat   }	
+.snow1   		{ background:url(../../images/weather/snow1.png) no-repeat }
+.snow2_night   	{ background:url(../../images/weather/snow2_night.png) no-repeat   }	
+.snow2   		{ background:url(../../images/weather/snow2.png) no-repeat   }
+.snow3_night   	{ background:url(../../images/weather/snow3_night.png) no-repeat  }	
+.snow3   		{ background:url(../../images/weather/snow3.png) no-repeat  }
+.snow4   		{ background:url(../../images/weather/snow4.png) no-repeat   }
+.snow5   		{ background:url(../../images/weather/snow5.png) no-repeat   }
+.sunny_night    { background:url(../../images/weather/sunny_night.png) no-repeat   }     
+.sunny          { background:url(../../images/weather/sunny.png) no-repeat   } 
+.tstorm1_night  { background:url(../../images/weather/tstorm1_night.png) no-repeat   }       
+.tstorm1        { background:url(../../images/weather/tstorm1.png) no-repeat   }   
+.tstorm2_night  { background:url(../../images/weather/tstorm2_night.png) no-repeat   }         
+.tstorm2        { background:url(../../images/weather/tstorm2.png) no-repeat   }   
+.tstorm3        { background:url(../../images/weather/tstorm3.png) no-repeat   }  

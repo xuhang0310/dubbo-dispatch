@@ -1,0 +1,147 @@
+form.search{
+	padding:5px 10px;
+	font-size:14px;}
+form.searchmulti{
+	position:relative;
+	padding:5px 180px 5px 10px;
+	border-top:1px solid #BED5F3;
+	border-bottom:1px solid #BED5F3;
+	background-color:#D8ECF9;
+	margin:1px auto;
+	font-size:14px;}
+form.search input,
+form.search select,
+form.searchmulti input,
+form.searchmulti select,
+div.pq-td-div input,
+div.pq-td-div select{
+    border: 1px solid #BED5F3;
+    position: relative;
+	background:#FFFFFF;
+	margin:0 5px;
+	background-color: #EFF7FD;
+	vertical-align:middle;
+	color:#4D94BE;}
+form.search input, form.searchmulti input{
+	padding:0 5px;
+    height: 20px;
+    line-height: 20px;}
+form.search input[type="checkbox"],form.search input[type="radio"]{
+	width:auto;
+	height:auto;}
+form.search input,
+form.searchmulti input.hasDatepicker{width:100px;}
+form.searchmulti input{width:100px;}
+form.searchmulti select{height: 22px;width:112px;}
+form.search select{height: 22px;width:112px;}
+
+form.search input.hasDatepicker,
+ .validform input.hasDatepicker,
+form.search input.inputselect, 
+ .validform input.inputselect,
+form.searchmulti input.hasDatepicker{
+	vertical-align: middle;
+	background-color: #EFF7FD;
+	background-image: url(../images/form/date_icon.png);
+	background-repeat: no-repeat;
+	background-position: right center;}
+	
+form.search input:hover,
+form.searchmulti input:hover,
+div.pq-td-div input:hover{
+    border: 1px solid #BED5F3;
+	background-color:#D8ECF9;}
+
+form.search input.readonly,
+form.searchmulti input.readonly,
+div.pq-td-div input.readonly{
+	background-color:#D8ECF9;}
+form.search input.comboboxtree, .validform input.comboboxtree{
+	background: url(../images/form/comboboxtree.png) no-repeat scroll right center #EFF7FD;
+	padding:0 25px 0 5px;}
+form.searchmulti label{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+	font-size:14px;}
+form.searchmulti dl{
+	position:absolute;
+	top:5px;
+	right:20px;}
+form.searchmulti dl dt{ margin:3px 0;}
+form.searchmulti ul{
+	overflow:hidden;
+	font-size:14px;}
+form.searchmulti ul li{
+	display:inline-block;
+	padding:2px 0;
+	margin:0;
+	float:left;
+	font-size:14px;}
+form.searchmulti input[type="radio"],
+form.searchmulti input[type="checkbox"]{
+	width:auto; border:0; background:none;}
+
+/*弹出框搜索*/
+form.searchbox{
+	position:relative;
+	padding:0;
+	border:0;
+	background:none;
+	margin:10px auto;}
+form.searchbox ul li{width:360px;}
+form.searchbox input{width:226px;}
+form.searchbox select{height: 22px;width:238px;}
+/*listboxMove*/
+.l-listbox {
+    background-color: #EFF7FD;
+    border: 1px solid #BED5F3;
+    font-size: 12px;
+	line-height:22px;}
+.l-listbox-inner {
+    color: #333;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    width: 100%;}
+div.middle{
+	margin:30px 2px;
+	float:left;}
+div.middle input {
+	display: block;
+	width:30px;
+	margin:2px;
+    font-size: 12px;
+	background-color: #eff7fd;
+    border: 1px solid #bed5f3;
+    color: #2779aa;
+    line-height: 20px;
+    vertical-align: middle;}
+div.middle input:hover{
+	border: 1px solid #AED0EA;
+	background-color:#D8ECF9;}
+div.listbox{
+	float:left;
+	margin:2px;}
+.l-listbox tr td{border-bottom:1px solid  #fff;}
+.l-listbox tr td.l-checkboxrow{padding-left:5px;}
+.l-listbox-inner .l-listbox-table{width:100%;}
+.l-listbox tr:hover td,.l-listbox tr.l-over td{background-color:#D8ECF9;cursor:pointer;}
+.l-listbox tr.l-selected td{background-color:#BED5F3;}
+.tablesel{
+	float:left;
+	width:470px;
+	margin-top:10px;
+	background-color:#e0ecff;}
+.tablesel h3{
+	color:#2779aa;
+	border:1px solid #95b8e7;
+	height:28px;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;}
+.tablesel form.search{
+	background-color:#f4f4f4;
+	border-left:1px solid #95b8e7;
+	border-right:1px solid #95b8e7;}

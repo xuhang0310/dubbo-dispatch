@@ -1,0 +1,98 @@
+.dfloor{
+	margin-bottom:10px;
+	font-size:12px;
+	clear:both;
+	overflow:hidden;}
+.dfloor ul{
+	height:26px;
+	width:100%;
+	border-bottom:1px dashed #AED0EA;}
+.dfloor ul li{
+	float:left;
+	height:24px;
+	line-height:24px;
+	width:150px;
+	padding:0 5px;
+	margin-left:1px;
+	border-radius:2px;}
+.dfloor ul li.rli{
+	font-weight:bold;
+	padding-left:15px;}
+	
+.bg-gray{background-color:#e4e4e4; border:1px dashed #666}
+.bg-green{background-color:#b0ffb0; border:1px dashed #009900}
+.bg-red{background-color:#ffa5a5; border:1px dashed #c40000}
+.bg-orange{background-color:#ffc8a4; border:1px dashed #ff6600}
+
+.tfloor ul li.bg-none{
+    border:0;
+    width: 122px;
+    background-color:none;}
+
+.dfloor ul li span, .tfloor ul li span{
+	width: 24px;
+	height: 24px;
+	vertical-align:middle;
+	display:inline-block;
+	/*background-image: url(floor.png);*/
+	background-image: url(../images/icon/floor.png);
+	background-repeat: no-repeat;}
+	
+span.s-blue{background-position: 0 -1px;}
+span.s-green{background-position: -24px -1px;}
+span.s-orange{background-position: -48px -1px;}
+span.r-blue{background-position: 0 -25px;}
+span.r-green{background-position: -24px -25px;}
+span.r-orange{background-position: -48px -25px;}
+span.e-blue{background-position: 0 -48px;}
+span.e-green{background-position: -24px -49px;}
+span.e-orange{background-position: -48px -49px;}
+span.e-purple{background-position: -72px -49px;}
+span.num{background-position: -96px -1px;}
+span.name{background-position: -96px -25px;}
+
+.tfloor{
+	border-collapse: collapse;
+	border-spacing:0;
+	border-top:1px solid #AED0EA;
+	border-left:1px solid #AED0EA;
+	margin-bottom:5px;}
+.tfloor th, .tfloor td {
+	font-size:12px;
+	font-weight:normal;
+	white-space:nowrap;
+	vertical-align:top;
+	border-right:1px solid #AED0EA;
+	border-bottom:1px solid #AED0EA;}
+.tfloor th {
+	background-color: #D8ECF9;
+	background: -webkit-linear-gradient(top,#EFF7FD 0,#D8ECF9 100%);
+	background: -moz-linear-gradient(top,#EFF7FD 0,#D8ECF9 100%);
+	background: -o-linear-gradient(top,#EFF7FD 0,#D8ECF9 100%);
+	background: linear-gradient(to bottom,#EFF7FD 0,#D8ECF9 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF7FD,endColorstr=#D8ECF9,GradientType=0);}
+.tfloor ul{padding:5px;}	
+.tfloor ul.even{
+	background-color:#eff7fd;}
+.tfloor ul li{
+	width:120px;
+	height:120px;
+	margin:2px;
+	border-radius:5px;
+	display:inline-block;
+	border-style:dashed;
+	border-width:1px;
+	text-align:left;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

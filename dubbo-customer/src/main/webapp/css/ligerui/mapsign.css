@@ -1,0 +1,80 @@
+.map{
+	width:100%;
+	position:absolute;
+	top:70px;
+	left:0;
+	/*background:url(../images/map/hebi.png) no-repeat ;
+	z-index:1;*/
+	}
+.MapInfor{
+	border:1px solid #AED0EA;
+	width:442px;
+	position:absolute;
+	z-index:3;
+	top:0;
+	left:0;
+	display:none;
+	border-radius:4px;
+	background-color:#fff;}
+.MapInfor h1{
+	font-size:14px;
+	line-height:22px;
+	height:22px;
+	color:#2779AA;
+	padding:5px 10px;
+	border-bottom:1px solid #AED0EA;
+	background-color:#EFF7FD;
+	border-radius:4px 4px 0 0;}
+.MapInfor span.mapinfor-to{
+	position:absolute;
+	top:-30px;
+	left:80px;
+	width:93px;
+	height:40px;
+	background:url(../images/form/mapinfor-to.png) no-repeat 0 0;}
+.MapInfor span.close{
+	position:absolute;
+	top:0;
+	right:0;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+	background:url(../images/form/close.png) no-repeat center center;}
+.MapInfor ul{
+	padding:5px 10px;
+	overflow:hidden;
+	border:1px solid #fff;
+	border-top:none;
+	border-radius: 0 0 4px 4px;}
+.MapInfor ul li{
+	line-height:28px;
+	height:28px;
+	float:left;
+	font-size:12px;
+	width:140px;
+	color:#333;}
+.MapInfor ul li span{
+	width:40px;
+	padding-right:5px;
+	font-size:14px;
+	text-align:right;
+	font-weight:bold;
+	display:inline-block;}	
+.MapInfor ul.tabsul li{
+	width:auto;
+	font-size:14px;}	
+.MapInfor ul.tabsul li a.ui-tabs-anchor{
+	padding:0 10px;}
+.sign{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index:2}
+.red{background-image:url(../../images/sign/sign-red.png)}
+.blue{background-image:url(../../images/sign/sign-blue.png)}
+.orange{background-image:url(../../images/sign/sign-orange.png)}
+.green{background-image:url(../../images/sign/sign-green.png)}
+.puple{background-image:url(../../images/sign/sign-puple.png)}

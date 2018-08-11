@@ -1,0 +1,108 @@
+.chartdiv{
+	float:left;
+	width:49%;
+	margin:5px 0 0 5px;
+	border:1px solid #aed0ea;
+	border-radius:4px;
+	background-color:#eff5fe;
+	position:relative;
+	text-align:left;
+	vertical-align:top;}
+.chartimg{
+	width:80%;}
+.chartdiv ul{
+	position:absolute;
+	top:20px;
+	right:20px;
+	border:1px solid #aed0ea;
+	padding:1px;
+	max-height:212px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2);/*ie*/
+	-moz-box-shadow: 1px 1px 2px #909090;/*firefox*/
+	-webkit-box-shadow: 1px 1px 2px #909090;/*safari或chrome*/
+	box-shadow:1px 1px 2px #909090;/*opera或ie9*/
+	}
+.chartdiv ul li{
+	height:26px;
+	border-bottom:1px solid #fff;
+	background-color:#EFF7FD;
+	padding:0 10px;}
+.chartdiv ul li:hover{
+	background-color:#D8ECF9;}
+.chartdiv ul li a{
+	display:block;
+	line-height:26px;
+	height:26px;
+	min-width:100px;
+	white-space:nowrap;
+	color:#2779AA;}
+.chartdiv ul li a span{
+	width:12px;
+	height:12px;
+	display:inline-block;
+	margin:5px 5px 0 0;
+	float:left;
+	border:1px solid #D8D8D8;}
+
+.chartdivhome ol{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	border-top:1px solid #aed0ea;
+	padding:1px;
+	height:26px;
+	background-color:#EFF7FD;
+	
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=2);/*ie*/
+	-moz-box-shadow: 1px 1px 2px #909090;/*firefox*/
+	-webkit-box-shadow: 1px 1px 2px #909090;/*safari或chrome*/
+	box-shadow:1px 1px 2px #909090;/*opera或ie9*/
+	}
+.chartdivhome ol li{
+	height:26px;
+	border-right:1px solid #fff;
+	background-color:#EFF7FD;
+	float:left;
+	width:24%;
+	padding-left:2px;}
+.chartdivhome ol li:hover{
+	background-color:#D8ECF9;}
+.chartdivhome ol li a{
+	display:block;
+	line-height:26px;
+	height:26px;
+	white-space:nowrap;
+	color:#2779AA;}
+.chartdivhome ol li a span{
+	width:12px;
+	height:12px;
+	display:inline-block;
+	margin:5px 5px 0 0;
+	float:left;
+	border:1px solid #D8D8D8;}
+
+.chartdiv50{
+	width:50%;
+	position:relative;
+	float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

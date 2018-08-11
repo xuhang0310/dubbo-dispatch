@@ -1,0 +1,75 @@
+﻿a.button:link, a.button:visited , .b-button input.button, .d-button input.button{
+    border: 1px solid #2694e8;
+    background-color:#62bbe9;
+    color: #fff; 
+    border-radius: 2px;
+    display: inline-block;
+	line-height:20px;
+    margin:0 5px;
+    padding:0 8px;
+	text-decoration:none;
+	vertical-align:middle;
+}
+a.button:hover, a.button:active{
+    border: 1px solid #74b2e2;
+    background:#eff7fd;
+    color: #0070a3;
+}
+a.button span.park {
+    background-image: url(../../images/icons_pack_white.png);
+    display: inline-block;
+    float: left;
+    height: 17px;
+    width: 17px;
+    margin:1px 3px 0 0;
+}
+a.button:hover span.park {
+    background-image: url(../images/icon/icons_pack.png);
+}
+
+span.search	{background-position:-288px 0}		/*查询*/
+span.searchmore	{background-position:-352px 0}	/*更多查询*/
+span.reset	{background-position:-32px -544px}	/*重置*/
+span.add	{background-position:0 -448px}		/*增加*/
+span.delete	{background-position:-288px -128px}	/*删除*/
+span.view	{background-position:-32px -128px}	/*查看*/
+span.revise	{background-position:-320px -128px}	/*修改*/
+span.export	{background-position:-256px -608px}	/*导出*/
+span.import	{background-position:-288px -608px}	/*导入*/
+span.save	{background-position:-32px -447px}	/*保存*/
+span.back	{background-position:-576px -672px}	/*返回*/
+span.download{background-position:-352px -128px}/*下载*/
+span.upload{background-position:-384px -128px}/*上传*/
+span.print	{background-position:-256px -448px}	/*打印*/
+span.canceled{background-position:-64px -480px}/*下一步*/
+span.close	{background-position:0 -576px}		/*关闭*/
+span.pie	{background-position:0 -320px}		/*统计（饼图）*/
+span.column	{background-position:-32px -320px}	/*统计（柱图）*/
+span.line	{background-position:-224px -256px}	/*统计（折线）*/
+span.revoc	{background-position:-160px -448px}	/*撤销*/
+span.dialog{background-position:-352px -479px}	/*弹出框按钮*/
+
+.b-button input.button, .d-button input.button{
+	width: auto;
+	cursor: pointer;
+	height: 22px;
+	padding: 0 5px 0 24px;
+	background-repeat: no-repeat;
+	background-position: 5px 1px;
+}
+.b-button input.button:hover, .d-button input.button:hover{
+    border: 1px solid #74b2e2;
+    background-color:#eff7fd;
+	background-position: 5px -18px;
+    color: #0070a3;
+}
+.b-button input.save, .d-button input.save{background-image: url(../images/icon/icons_save.png);}
+.b-button input.reset, .d-button input.reset{background-image: url(../images/icon/icons_reset.png);}
+.b-button input.back, .d-button input.back{background-image: url(../images/icon/icons_back.png);}
+
+
+
+
+
+
+

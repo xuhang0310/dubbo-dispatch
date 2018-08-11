@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <!-- 指定一个文件目录，当EhCache把数据写到硬盘上时，将把数据写到这个文件目录下 -->
+    <diskStore path="java.io.tmpdir"/>
+
+    <!-- 设定缓存的默认数据过期策略 -->
+    <defaultCache
+            maxElementsInMemory="10000" 
+            eternal="false" 
+            overflowToDisk="true"
+            timeToIdleSeconds="10"
+            timeToLiveSeconds="20"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"/>
+	<!-- 公用缓存库 -->  
+    <cache name="cacheTool"
+        maxElementsInMemory="1000"
+        eternal="false"
+        overflowToDisk="true"
+        timeToIdleSeconds="10"
+        timeToLiveSeconds="20"/>
+    
+    <!-- 菜单专用缓存库 -->
+    <cache name="sysMenuCache"
+        maxElementsInMemory="1000"
+        eternal="false"
+        overflowToDisk="true"
+        timeToIdleSeconds="7200"
+        timeToLiveSeconds="9000"/>
+    
+    <!-- 列表配置信息专用缓存库 -->    
+    <cache name="pageConfigCache"
+        maxElementsInMemory="1000"
+        eternal="false"
+        overflowToDisk="true"
+        timeToIdleSeconds="10"
+        timeToLiveSeconds="20"/>
+
+</ehcache>

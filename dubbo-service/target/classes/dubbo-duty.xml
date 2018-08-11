@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	   xmlns:aop="http://www.springframework.org/schema/aop" 
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	   xmlns:tx="http://www.springframework.org/schema/tx" 
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:cache="http://www.springframework.org/schema/cache"
+	   xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"  
+	   xsi:schemaLocation="http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd 
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd 
+		http://www.springframework.org/schema/cache 
+		http://www.springframework.org/schema/cache/spring-cache.xsd 
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd 
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://code.alibabatech.com/schema/dubbo 
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+		default-autowire="byName">
+	
+       
+       
+      
+	 	<!-- 具体的实现bean -->
+		<bean id="dataTeamService" class="com.github.xupei.simple.data.service.impl.DataTeamServiceImpl" />
+		<!-- 声明需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IDataTeamService"  ref="dataTeamService" />
+    	
+    	<!-- 具体的实现bean -->
+		<bean id="dataDicService" class="com.github.xupei.simple.data.service.impl.DataDicServiceImpl" />
+		<!-- 声明需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IDataDicService"  ref="dataDicService" />
+    	
+    	<!-- 具体的实现bean -->
+		<bean id="dataIndexService" class="com.github.xupei.simple.data.service.impl.DataIndexServiceImpl" />
+		<!-- 声明需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IDataIndexService"  ref="dataIndexService" />
+    	
+    	<!-- 具体的实现bean -->
+		<bean id="dataService" class="com.github.xupei.simple.data.service.impl.DataServiceImpl" />
+		<!-- 声明需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IDataService"  ref="dataService" />
+    	
+    	<!-- 具体的实现bean -->
+		<bean id="dataProjectService" class="com.github.xupei.simple.data.service.impl.DataProjectServiceImpl" />
+		<!-- 声明 一源一日 需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IDataProjectService"  ref="dataProjectService" />
+    	
+    	<!-- 具体的实现bean -->
+		<bean id="forecastCNQpayloadService" class="com.github.xupei.simple.data.service.impl.ForecastCNQpayloadServiceImpl" />
+		<!-- 声明 负荷预测 需要暴露的服务接口 -->  
+    	<dubbo:service interface="com.github.xupei.dubbo.api.data.IForecastCNQpayloadService"  ref="forecastCNQpayloadService" />
+	
+</beans>

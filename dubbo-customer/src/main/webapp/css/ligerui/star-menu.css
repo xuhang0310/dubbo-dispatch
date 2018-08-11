@@ -1,0 +1,154 @@
+.tabs{
+	list-style-type:none;
+	height:32px;
+	margin:0px;
+	font-size:12px;
+	padding:0;
+	border-bottom:0px solid #8DB2E3;}
+/*开始菜单层--------------------------------------*/
+.start_menu{
+	position:absolute;
+	top:65px;
+	left:10px;
+	z-index:1001;
+	/*display:none;*/}
+/*隐藏遮罩层*/
+#divMenu{
+	z-index:1000;
+	width:5000px;
+	height:2000px;
+	position:absolute;
+	left:0px;
+	top:-65px;
+	display:none;
+	opacity:0.2;
+	background:#000;
+	margin-left:-20px;}
+/*开始菜单按钮*/
+.myMenu{
+	width:30px;
+	height:28px;}
+.myMenu a:link,.myMenu a:visited{
+	width:30px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	font-weight:bold;
+	color:#4d94be;
+	background:url(../images/icon/start.png) 2px 0 no-repeat;
+	display:block;}
+.myMenu a:hover,.myMenu a:active{
+	background:url(../images/icon/start.png) 2px 0 no-repeat;}
+/*二级下拉菜单罩层*/
+#Menu{
+	z-index:1001;
+	position:absolute;
+	display:none;}
+/*二级下拉菜单背景*/
+.menubg{
+	top:0px;
+	left:0px;
+	position: absolute;
+	width:380px;
+	height:410px;
+	border: 5px solid #000;
+	/*border-radius:10px;*/
+	opacity:0.4;
+	z-index:1;
+	display:none;}
+/*二级下拉菜单数据*/
+.section {
+	background:#4D94BE;
+	position: absolute;
+	/*border-radius:5px;*/
+	top:0;
+	left:0;
+	width:195px;
+	height:402px;
+	z-index:2;}
+ul.tabs {
+	list-style: none;}
+.section .tabs li {
+	float: left;
+	display: inline;
+	cursor: pointer;
+	position: relative;
+	margin:0 1px;
+	background-repeat: no-repeat;
+	background-position: 140px center;}
+.box {
+	display: none;
+    height: 400px;
+    width: 195px;
+	/*border-radius:0 5px 5px 0;*/}
+.box.visible {
+	display: block;}
+.section.vertical {
+	border-left: 190px solid #4D94BE;
+	position:relative;
+	top:0;
+	padding:5px;}
+div.vertical ul.tabs {
+	width: 189px;
+	height:400px;
+	float: left;
+	display: inline;
+	margin-left:-190px;
+	background:#fff;
+	border:1px solid #2779AA;
+	border-right:1px solid #BED5F3;
+	position:relative;
+	padding:0;
+	*position:static;}
+.vertical .tabs li {
+	width: 187px;
+    height: 42px;
+	font: normal 16px/40px "Microsoft YaHei";}
+.vertical .tabs li:hover {
+	background-color:#D8ECF9;}
+.vertical .tabs li.current {
+	background-color:#EFF7FD;
+	text-shadow: 0 1px 0 #FFFFFF;}
+.vertical .tabs li span{
+	float:left;
+	width:146px;
+	padding-left:40px;
+    height: 40px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-position:15px center; }
+.vertical .box {/*padding-left: 20px;*/}
+.vertical .box a:link,  .vertical .box a:visited{
+	display: block;
+	height: 36px;
+	color: #333;
+	font: normal 14px/36px "Microsoft YaHei";
+	padding-left: 40px;
+	width: 151px;
+	text-decoration: none;}
+.vertical .box a:hover, .vertical .box a:active{
+	color: #2779AA;
+	background-color:#D8ECF9;}
+.st_tree{
+	height:400px;
+	border:1px solid #2779AA;
+	border-left:none;
+	background-color:#fff;
+	overflow-y:auto;
+	overflow-x:hidden;}
+/*开始下拉菜单二级下拉图标*/
+.menuTitle span, .activeTitle span{
+	background-image: url(../images/layout/togglebar.gif);}
+.menuTitle:hover, .activeTitle:hover{
+	color: #2779AA;
+	background-color:#D8ECF9;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.list-collect{
+	border-top:1px solid #BED5F3;
+	border-bottom:1px solid #BED5F3;
+	background-color:#D8ECF9;
+	margin:1px auto;
+	padding:5px 0;
+	overflow:hidden;
+	font-size:12px;}
+.list-collect ul div.transverse, .list-collect2 ul div.transverse{
+	overflow:hidden;}
+.list-collect ul div.vertical, .list-collect2 ul div.vertical{
+	float:left;
+	width:220px;
+	overflow:hidden;}
+.list-collect ul li, .list-collect2 ul li{
+	float:left;
+	color:#666;
+	width:220px;
+	height:24px;
+	line-height:24px;}
+.list-collect ul li span.w90, .list-collect2 ul li span.w90{
+	width:90px;
+	display:inline-block;
+	text-align:right;}
+.list-collect ul li span.w100, .list-collect2 ul li span.w90{
+	width:100px;
+	display:inline-block;
+	text-align:right;}
+.list-collect ul li span.fwd, .list-collect2 ul li span.fwd{
+	font-weight:bold;
+	font-size:14px;
+	margin-right:5px;}
+.list-collect2{
+	border:1px solid #BED5F3;
+	background-color:#D8ECF9;
+	margin:1px;
+	padding:5px 0;
+	overflow:hidden;
+	font-size:12px;
+	width:49.5%;}

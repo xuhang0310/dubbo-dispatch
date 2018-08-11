@@ -1,0 +1,396 @@
+/*一级菜单*/
+.l-accordion-header .l-accordion-header-inner{
+	padding-left: 20px;
+	white-space:nowrap;
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	background-image: url(../images/icons16/folder-horizontal.png);}
+/*热源*/
+.l-accordion-header .fire{
+	background-image: url(../images/icons16/fire.png);}
+/*换热站*/
+.l-accordion-header .lighthouse{
+	background-image: url(../images/icons16/lighthouse.png);}
+/*室温信息*/
+.l-accordion-header .hot{
+	background-image: url(../images/icons16/hot.png);}
+/*气象管理*/
+.l-accordion-header .weather-cloudy	{
+	background-image: url(../images/icons16/weather-cloudy.png);}
+/*负荷预测*/
+.l-accordion-header .thermometer-high{
+	background-image: url(../images/icons16/thermometer-high.png);}
+/*调度管理*/
+.l-accordion-header .calendar-list{
+	background-image: url(../images/icons16/calendar-list.png);}
+/*应急管理*/
+.l-accordion-header .clipboard_paste_image{
+	background-image: url(../images/icons16/clipboard_paste_image.png);}
+/*能耗管理*/
+.l-accordion-header .energy{
+	background-image: url(../images/icons16/energy.png);}
+/*能耗异常*/
+.l-accordion-header .energy-warning{
+	background-image: url(../images/icons16/energy-warning.png);}
+/*热计量用户*/
+.l-accordion-header .user-silhouette{
+	background-image: url(../images/icons16/user-silhouette.png);}
+/*报表*/
+.l-accordion-header .table2{
+	background-image: url(../images/icons16/table2.png);}
+/*系统管理*/
+.l-accordion-header .computer2{
+	background-image: url(../images/icons16/computer2.png);}
+/*系统设置*/
+.l-accordion-header .compile{
+	background-image: url(../images/icons16/compile.png);}
+/*我的收藏*/
+.l-accordion-header .star_1{
+	background-image: url(../images/icons16/star_1.png);}
+/*基础信息*/
+.l-accordion-header .a024{
+	background-image: url(../images/icons16/a024.png);}
+/*工况分析*/
+.l-accordion-header .projection_screen_present{
+	background-image: url(../images/icons16/projection_screen_present.png);}
+/*综合管理*/
+.l-accordion-header .inbox-table{
+	background-image: url(../images/icons16/inbox-table.png);}
+/*大屏幕系统*/
+.l-accordion-header .television-protector{
+	background-image: url(../images/icons16/television-protector.png);}
+/*任务管理*/
+.l-accordion-header .message{
+	background-image: url(../images/icons16/message.png);}
+
+	
+/*二级菜单*/
+.l-accordion-content a{
+	font-size:12px;
+	padding-left: 35px;
+	white-space:nowrap;
+	background-repeat: no-repeat;
+	background-position: 15px 5px;
+	background-image: url(../images/icons16/report.png);}
+
+.l-tab-links ul li a.icon-home,
+.l-layout-content a.nav-home{
+	background-image: url(../images/icons16/home1.png);}
+	
+/*选项卡*/
+.l-tab-links ul li a{
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	background-image: url(../images/icons16/closethis.png);}
+
+/*热源基础信息*/
+.l-tab-links ul li a.icon-fire-blueprint,.l-accordion-content a.nav-fire-blueprint{
+	background-image: url(../images/icons16/fire-blueprint.png);}
+/*热源实时数据*/
+.l-tab-links ul li a.icon-fire-trashcan_full,.l-accordion-content a.nav-fire-trashcan_full{
+	background-image: url(../images/icons16/fire-trashcan_full.png);}
+/*热源内部设备*/
+.l-tab-links ul li a.icon-fire-server-cast,.l-accordion-content a.nav-fire-server-cast{
+	background-image: url(../images/icons16/fire-server-cast.png);}
+/*热源附属文件*/
+.l-tab-links ul li a.icon-fire-folder_files,.l-accordion-content a.nav-fire-folder_files{
+	background-image: url(../images/icons16/fire-folder_files.png);}
+/*热源检修事件*/
+.l-tab-links ul li a.icon-fire-wrench-screwdriver,.l-accordion-content a.nav-fire-wrench-screwdriver{
+	background-image: url(../images/icons16/fire-wrench-screwdriver.png);}
+/*热源故障记录*/
+.l-tab-links ul li a.icon-fire-warning,.l-accordion-content a.nav-fire-warning{
+	background-image: url(../images/icons16/fire-warning.png);}
+/*热源历史工况*/
+.l-tab-links ul li a.icon-fire-time,.l-accordion-content a.nav-fire-time{
+	background-image: url(../images/icons16/fire-time.png);}
+/*热源运行分析*/
+.l-tab-links ul li a.icon-fire-chart-up-color,.l-accordion-content a.nav-fire-chart-up-color{
+	background-image: url(../images/icons16/fire-chart-up-color.png);}
+
+
+/*换热站基础信息*/
+.l-tab-links ul li a.icon-lighthouse-blueprint,.l-accordion-content a.nav-lighthouse-blueprint{
+	background-image: url(../images/icons16/lighthouse-blueprint.png);}
+/*换热站实时数据*/
+.l-tab-links ul li a.icon-lighthouse-trashcan_full,.l-accordion-content a.nav-lighthouse-trashcan_full{
+	background-image: url(../images/icons16/lighthouse-trashcan_full.png);}
+/*换热站内部设备*/
+.l-tab-links ul li a.icon-lighthouse-server-cast,.l-accordion-content a.nav-lighthouse-server-cast{
+	background-image: url(../images/icons16/lighthouse-server-cast.png);}
+/*换热站检修事件*/
+.l-tab-links ul li a.icon-lighthouse-wrench-screwdriver,.l-accordion-content a.nav-lighthouse-wrench-screwdriver{
+	background-image: url(../images/icons16/lighthouse-wrench-screwdriver.png);}
+/*换热站历史工况*/
+.l-tab-links ul li a.icon-lighthouse-time,.l-accordion-content a.nav-lighthouse-time{
+	background-image: url(../images/icons16/lighthouse-time.png);}
+/*换热站附属文件*/
+.l-tab-links ul li a.icon-lighthouse-folder_files,.l-accordion-content a.nav-lighthouse-folder_files{
+	background-image: url(../images/icons16/lighthouse-folder_files.png);}
+/*对比分析*/
+.l-tab-links ul li a.icon-lighthouse-1084,.l-accordion-content a.nav-lighthouse-1084{
+	background-image: url(../images/icons16/lighthouse-1084.png);}
+/*换热站故障记录*/
+.l-tab-links ul li a.icon-lighthouse-warning,.l-accordion-content a.nav-lighthouse-warning{
+	background-image: url(../images/icons16/lighthouse-warning.png);}
+/*换热站运行分析*/
+.l-tab-links ul li a.icon-lighthouse-chart-up-color,.l-accordion-content a.nav-lighthouse-chart-up-color{
+	background-image: url(../images/icons16/lighthouse-chart-up-color.png);}
+/*运行工况TOP10*/
+.l-tab-links ul li a.icon-lighthouse-1081,.l-accordion-content a.nav-lighthouse-1081{
+	background-image: url(../images/icons16/lighthouse-1081.png);}
+/*八面重点站*/
+.l-tab-links ul li a.icon-lighthouse-store,.l-accordion-content a.nav-lighthouse-store{
+	background-image: url(../images/icons16/lighthouse-store.png);}
+/*地图信息展示*/
+.l-tab-links ul li a.icon-lighthouse-map2,.l-accordion-content a.nav-lighthouse-map2{
+	background-image: url(../images/icons16/lighthouse-map2.png);}
+/*报警数据*/
+.l-tab-links ul li a.icon-irkickflash-data,.l-accordion-content a.nav-irkickflash-data{
+	background-image: url(../images/icons16/irkickflash-data.png);}
+/*换热站水压图*/
+.l-tab-links ul li a.icon-lighthouse-water,.l-accordion-content a.nav-lighthouse-water{
+	background-image: url(../images/icons16/lighthouse-water.png);}
+
+
+
+/*室温总览*/
+.l-tab-links ul li a.icon-hot-blueprint,.l-accordion-content a.nav-hot-blueprint{
+	background-image: url(../images/icons16/hot-blueprint.png);}
+/*室温实时数据*/
+.l-tab-links ul li a.icon-hot-trashcan_full,.l-accordion-content a.nav-hot-trashcan_full{
+	background-image: url(../images/icons16/hot-trashcan_full.png);}
+/*室温用户*/
+.l-tab-links ul li a.icon-hot-user,.l-accordion-content a.nav-hot-user{
+	background-image: url(../images/icons16/hot-user.png);}
+/*当前换热站室温*/
+.l-tab-links ul li a.icon-hot-lighthouse,.l-accordion-content a.nav-hot-lighthouse{
+	background-image: url(../images/icons16/hot-lighthouse.png);}
+/*换热站室温小时统计*/
+.l-tab-links ul li a.icon-hot-time,.l-accordion-content a.nav-hot-time{
+	background-image: url(../images/icons16/hot-time.png);}
+/*换热站室温天统计*/
+.l-tab-links ul li a.icon-hot-date,.l-accordion-content a.nav-hot-date{
+	background-image: url(../images/icons16/hot-date.png);}
+/*室温设备管理*/
+.l-tab-links ul li a.icon-hot-server-cast,.l-accordion-content a.nav-hot-server-cast{
+	background-image: url(../images/icons16/hot-server-cast.png);}
+/*换热站室温排名*/
+.l-tab-links ul li a.icon-hot-1081,.l-accordion-content a.nav-hot-1081{
+	background-image: url(../images/icons16/hot-1081.png);}
+/*室温汇总*/
+.l-tab-links ul li a.icon-hot-summary,.l-accordion-content a.nav-hot-summary{
+	background-image: url(../images/icons16/hot-summary.png);}
+
+/*天气预报*/
+.l-tab-links ul li a.icon-weather_sun,.l-accordion-content a.nav-weather_sun{
+	background-image: url(../images/icons16/weather_sun.png);}
+/*气象小时查询*/
+.l-tab-links ul li a.icon-clock-moon-phase,.l-accordion-content a.nav-clock-moon-phase{
+	background-image: url(../images/icons16/clock-moon-phase.png);}
+/*气象图片维护*/
+.l-tab-links ul li a.icon-picture-sunset,.l-accordion-content a.nav-picture-sunset{
+	background-image: url(../images/icons16/picture-sunset.png);}
+/*历史气象查询*/
+.l-tab-links ul li a.icon-clock-history,.l-accordion-content a.nav-clock-history{
+	background-image: url(../images/icons16/clock-history.png);}
+/*气象监测查询*/
+.l-tab-links ul li a.icon-weather-monitor,.l-accordion-content a.nav-weather-monitor{
+	background-image: url(../images/icons16/weather-monitor.png);}
+/*气象补报*/
+.l-tab-links ul li a.icon-comments-add,.l-accordion-content a.nav-comments-add{
+	background-image: url(../images/icons16/comments-add.png);}
+/*气象天算法数据*/
+.l-tab-links ul li a.icon-database-cloud,.l-accordion-content a.nav-database-cloud{
+	background-image: url(../images/icons16/database-cloud.png);}
+/*天气预报算法*/
+.l-tab-links ul li a.icon-calculator-scientific,.l-accordion-content a.nav-calculator-scientific{
+	background-image: url(../images/icons16/calculator-scientific.png);}
+
+/*室外温度回水曲线*/
+.l-tab-links ul li a.icon-1083,.l-accordion-content a.nav-1083{
+	background-image: url(../images/icons16/1083.png);}
+/*负荷百分比*/
+.l-tab-links ul li a.icon-edit-percent,.l-accordion-content a.nav-edit-percent{
+	background-image: url(../images/icons16/edit-percent.png);}
+
+/*调度班组维护*/
+.l-tab-links ul li a.icon-calendar-task,.l-accordion-content a.nav-calendar-task{
+	background-image: url(../images/icons16/calendar-task.png);}
+/*交接班管理*/
+.l-tab-links ul li a.icon-calendar-empty,.l-accordion-content a.nav-calendar-empty{
+	background-image: url(../images/icons16/calendar-empty.png);}
+/*值班工作*/
+.l-tab-links ul li a.icon-calendar-month,.l-accordion-content a.nav-calendar-month{
+	background-image: url(../images/icons16/calendar-month.png);}
+/*值班工作查询*/
+.l-tab-links ul li a.icon-calendar-search,.l-accordion-content a.nav-calendar-search{
+	background-image: url(../images/icons16/calendar-search.png);}
+/*值班工作日程表*/
+.l-tab-links ul li a.icon-milestone-calendar,.l-accordion-content a.nav-milestone-calendar{
+	background-image: url(../images/icons16/milestone-calendar.png);}
+
+/*应急事件上报*/
+.l-tab-links ul li a.icon-clipboard_sign,.l-accordion-content a.nav-clipboard_sign{
+	background-image: url(../images/icons16/clipboard_sign.png);}
+/*应急事件处理*/
+.l-tab-links ul li a.icon-clipboard-invoice,.l-accordion-content a.nav-clipboard-invoice{
+	background-image: url(../images/icons16/clipboard-invoice.png);}
+/*应急事件查询*/
+.l-tab-links ul li a.icon-clipboard-search,.l-accordion-content a.nav-clipboard-search{
+	background-image: url(../images/icons16/clipboard-search.png);}
+/*应急预案管理*/
+.l-tab-links ul li a.icon-clipboard-task	,.l-accordion-content a.nav-clipboard-task{
+	background-image: url(../images/icons16/clipboard-task.png);}
+/*应急预案查询*/
+.l-tab-links ul li a.icon-clipboard-emptys,.l-accordion-content a.nav-clipboard-emptys{
+	background-image: url(../images/icons16/clipboard-emptys.png);}
+
+/*能耗排名*/
+.l-tab-links ul li a.icon-energy-1081,.l-accordion-content a.nav-energy-1081{
+	background-image: url(../images/icons16/energy-1081.png);}
+/*能耗自定义对比*/
+.l-tab-links ul li a.icon-energy-1084,.l-accordion-content a.nav-energy-1084{
+	background-image: url(../images/icons16/energy-1084.png);}
+/*能耗梯度*/
+.l-tab-links ul li a.icon-energy-bricks,.l-accordion-content a.nav-energy-bricks{
+	background-image: url(../images/icons16/energy-bricks.png);}
+/*能耗周期对比*/
+.l-tab-links ul li a.icon-energy-time,.l-accordion-content a.nav-energy-time{
+	background-image: url(../images/icons16/energy-time.png);}
+/*能耗盈亏*/
+.l-tab-links ul li a.icon-energy-chart-up-color,.l-accordion-content a.nav-energy-chart-up-color{
+	background-image: url(../images/icons16/energy-chart-up-color.png);}
+/*分公司能耗统计*/
+.l-tab-links ul li a.icon-energy-small-brown,.l-accordion-content a.nav-energy-small-brown{
+	background-image: url(../images/icons16/energy-small-brown.png);}
+/*换热站能耗统计*/
+.l-tab-links ul li a.icon-energy-small,.l-accordion-content a.nav-energy-small{
+	background-image: url(../images/icons16/energy-small.png);}
+/*分公司能耗明细*/
+.l-tab-links ul li a.icon-energy-unit,.l-accordion-content a.nav-energy-unit{
+	background-image: url(../images/icons16/energy-unit.png);}
+/*换热站能耗明细*/
+.l-tab-links ul li a.icon-energy-lighthouse,.l-accordion-content a.nav-energy-lighthouse{
+	background-image: url(../images/icons16/energy-lighthouse.png);}
+
+/*能耗异常信息*/
+.l-tab-links ul li a.icon-energy-blueprint,.l-accordion-content a.nav-energy-blueprint{
+	background-image: url(../images/icons16/energy-blueprint.png);}
+
+/*居民用户信息查询*/
+.l-tab-links ul li a.icon-user-search,.l-accordion-content a.nav-user-search{
+	background-image: url(../images/icons16/user-search.png);}
+/*居民用户实时数据*/
+.l-tab-links ul li a.icon-user-time,.l-accordion-content a.nav-user-time{
+	background-image: url(../images/icons16/user-time.png);}
+/*居民用户历史数据*/
+.l-tab-links ul li a.icon-user-history,.l-accordion-content a.nav-user-history{
+	background-image: url(../images/icons16/user-history.png);}
+/*居民用户排行榜*/
+.l-tab-links ul li a.icon-user-chart,.l-accordion-content a.nav-user-chart{
+	background-image: url(../images/icons16/user-chart.png);}
+/*工业用户信息查询*/
+.l-tab-links ul li a.icon-userw-search,.l-accordion-content a.nav-userw-search{
+	background-image: url(../images/icons16/userw-search.png);}
+/*工业用户实时数据*/
+.l-tab-links ul li a.icon-userw-time,.l-accordion-content a.nav-userw-time{
+	background-image: url(../images/icons16/userw-time.png);}
+/*工业用户历史数据*/
+.l-tab-links ul li a.icon-userw-history,.l-accordion-content a.nav-userw-history{
+	background-image: url(../images/icons16/userw-history.png);}
+/*工业用户排行榜*/
+.l-tab-links ul li a.icon-userw-chart,.l-accordion-content a.nav-userw-chart{
+	background-image: url(../images/icons16/userw-chart.png);}
+
+/*用户管理*/
+.l-tab-links ul li a.icon-personal,.l-accordion-content a.nav-personal{
+	background-image: url(../images/icons16/personal.png);}
+/*角色管理*/
+.l-tab-links ul li a.icon-users,.l-accordion-content a.nav-users{
+	background-image: url(../images/icons16/users.png);}
+/*机构管理*/
+.l-tab-links ul li a.icon-sitemap-application,.l-accordion-content a.nav-sitemap-application{
+	background-image: url(../images/icons16/sitemap-application.png);}
+/*公告管理*/
+.l-tab-links ul li a.icon-amarok,.l-accordion-content a.nav-amarok{
+	background-image: url(../images/icons16/amarok.png);}
+/*通讯录*/
+.l-tab-links ul li a.icon-contacts,.l-accordion-content a.nav-contacts{
+	background-image: url(../images/icons16/contacts.png);}
+
+/*采暖期参数设置*/
+.l-tab-links ul li a.icon-equalizer,.l-accordion-content a.nav-equalizer{
+	background-image: url(../images/icons16/equalizer.png);}
+/*热源换热站指标维护*/
+.l-tab-links ul li a.icon-transmit,.l-accordion-content a.nav-transmit{
+	background-image: url(../images/icons16/transmit.png);}
+/*报警设置*/
+.l-tab-links ul li a.icon-irkickflash-set,.l-accordion-content a.nav-irkickflash-set{
+	background-image: url(../images/icons16/irkickflash-set.png);}
+
+
+/*工况数据管理*/
+.l-tab-links ul li a.icon-server-network,.l-accordion-content a.nav-server-network{
+	background-image: url(../images/icons16/server-network.png);}
+/*热量预测查询*/
+.l-tab-links ul li a.icon-thermometer-search,.l-accordion-content a.nav-thermometer-search{
+	background-image: url(../images/icons16/thermometer-search.png);}
+/*未来五天热量预测*/
+.l-tab-links ul li a.icon-thermometer-cloud,.l-accordion-content a.nav-thermometer-cloud{
+	background-image: url(../images/icons16/thermometer-cloud.png);}
+/*换热站小时能耗*/
+.l-tab-links ul li a.icon-energy-clock,.l-accordion-content a.nav-energy-clock{
+	background-image: url(../images/icons16/energy-clock.png);}
+/*热源小时能耗*/
+.l-tab-links ul li a.icon-energy-time,.l-accordion-content a.nav-energy-time{
+	background-image: url(../images/icons16/energy-time.png);}
+/*热源换热站热量对比*/
+.l-tab-links ul li a.icon-energy-chart,.l-accordion-content a.nav-energy-chart{
+	background-image: url(../images/icons16/energy-chart.png);}
+/*缺陷管理*/
+.l-tab-links ul li a.icon-bug,.l-accordion-content a.nav-bug{
+	background-image: url(../images/icons16/bug.png);}
+/*缺陷类型维护*/
+.l-tab-links ul li a.icon-bug-kwikdisk,.l-accordion-content a.nav-bug-kwikdisk{
+	background-image: url(../images/icons16/bug-kwikdisk.png);}
+/*缺陷列表*/
+.l-tab-links ul li a.icon-bug-table,.l-accordion-content a.nav-bug-table{
+	background-image: url(../images/icons16/bug-table.png);}
+/*信息维护*/
+.l-tab-links ul li a.icon-doc_text_image,.l-accordion-content a.nav-doc_text_image{
+	background-image: url(../images/icons16/doc_text_image.png);}
+/*参数维护*/
+.l-tab-links ul li a.icon-control_equalizer,.l-accordion-content a.nav-control_equalizer{
+	background-image: url(../images/icons16/control_equalizer.png);}
+/*绩效考核*/
+.l-tab-links ul li a.icon-paper-bag-label,.l-accordion-content a.nav-paper-bag-label{
+	background-image: url(../images/icons16/paper-bag-label.png);}
+/*数据连续两天段传*/
+.l-tab-links ul li a.icon-plug-connect,.l-accordion-content a.nav-plug-connect{
+	background-image: url(../images/icons16/plug-connect.png);}
+/*博达大屏幕页面*/
+.l-tab-links ul li a.icon-television,.l-accordion-content a.nav-television{
+	background-image: url(../images/icons16/television.png);}
+/*标准版大屏页面*/
+.l-tab-links ul li a.icon-television-test,.l-accordion-content a.nav-television-test{
+	background-image: url(../images/icons16/television-test.png);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
