@@ -246,7 +246,7 @@
   </dependencies>
   <modules>
      <module>dubbo-api</module>
-     <module>dubbo-client</module>
+     
      <module>dubbo-customer</module>
      <module>dubbo-service</module>
      <module>dubbo-common</module>

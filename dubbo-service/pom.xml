@@ -23,11 +23,7 @@
            <artifactId>dubbo-common</artifactId>
            <version>0.1-SNAPSHOT</version>
      </dependency>
-     <dependency>
-    <groupId>net.coobird</groupId>
-    <artifactId>thumbnailator</artifactId>
-    <version>0.4.8</version>
-</dependency>
+     
   </dependencies>
   
   <build/>
