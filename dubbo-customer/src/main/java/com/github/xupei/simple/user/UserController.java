@@ -20,6 +20,7 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -46,6 +47,9 @@ public class UserController extends BaseController {
 	
 	@Autowired
 	IUserService userService;
+	
+	@Autowired
+	ApplicationContext applicationContext;
 	
 /*	@Autowired
 	private IFeedService feedService;*/
@@ -200,14 +204,14 @@ public class UserController extends BaseController {
 		return "redirect:/";
 	}
 	
-	@RequestMapping(value="/loginHome.do",method=RequestMethod.POST)
+	@RequestMapping(value="/loginHome.do")
 	public void getLoginHome(HttpServletRequest request, HttpServletResponse response,
 			@RequestParam Map<String, String> paramsMap){
-		
 		 ShiroUser user = (ShiroUser)SecurityUtils.getSubject().getPrincipal();
 		
 		try {
-			List list=userService.getUserRightList(user.getId());
+			List list=userService.getUserRightList("32");
+			applicationContext.publishEvent(new UserLoginEvent(user));
 			JsonUtil.returnListJson(list,response);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
