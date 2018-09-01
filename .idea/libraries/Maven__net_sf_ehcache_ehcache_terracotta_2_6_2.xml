@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sf.ehcache:ehcache-terracotta:2.6.2">
+    <CLASSES>
+      <root url="jar://J:/java/maven/repository/net/sf/ehcache/ehcache-terracotta/2.6.2/ehcache-terracotta-2.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://J:/java/maven/repository/net/sf/ehcache/ehcache-terracotta/2.6.2/ehcache-terracotta-2.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://J:/java/maven/repository/net/sf/ehcache/ehcache-terracotta/2.6.2/ehcache-terracotta-2.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
