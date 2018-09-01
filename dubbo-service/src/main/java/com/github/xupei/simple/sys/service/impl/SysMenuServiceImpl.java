@@ -10,7 +10,7 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
-import net.coobird.thumbnailator.Thumbnails;
+
 
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

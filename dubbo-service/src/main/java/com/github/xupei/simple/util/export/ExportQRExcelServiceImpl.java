@@ -40,7 +40,7 @@ import com.github.xupei.dubbo.api.util.export.ByteArrayOutputStreamExe;
 import com.github.xupei.dubbo.api.util.export.ExportQRExcelService;
 import com.github.xupei.simple.dao.BaseDao;
 import com.github.xupei.simple.util.SqlParser;
-import com.swetake.util.Qrcode;
+/*import com.swetake.util.Qrcode;*/
 
 /**
  * 功能描述：支持将二维码图片信息导出到excel  .  <BR>
@@ -199,7 +199,8 @@ public class ExportQRExcelServiceImpl extends BaseDao implements ExportQRExcelSe
 	}
 	//生成二维码图片信息
 	public ByteArrayOutputStream initQrcode(StringBuffer qrData){
-		   ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();   
+		return null;
+		  /* ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();   
 		   Qrcode qrcode = new Qrcode();
 		   qrcode.setQrcodeErrorCorrect('M');//纠错等级（分为L、M、H三个等级）
 		   qrcode.setQrcodeEncodeMode('B');//N代表数字，A代表a-Z，B代表其它字符
@@ -242,6 +243,6 @@ public class ExportQRExcelServiceImpl extends BaseDao implements ExportQRExcelSe
 		} catch (IOException e) {
 			e.printStackTrace();
 			return null;
-		}
+		}*/
 	}
 }

@@ -103,7 +103,7 @@ public class UserServiceImpl implements IUserService{
 	}
 	
 	public List getParentList(String permissions ) throws Exception{
-		String sql="select t.* ,(select count(1) from sys_menu sm where sm.parentid=t.menuid) nums from sys_menu t where del = '1' and parentid='0' and t.menuid in ('"+permissions.replace(",", "','")+"') order by to_number(orderid) ";
+		String sql="select t.* ,(select count(1) from sys_menu sm where sm.parentid=t.menuid) nums from sys_menu t where del = '1' and parentid='0' and t.menuid in ('"+permissions.replace(",", "','")+"') order by orderid ";
 		
 		List list= baseDao.findAll(sql,  new HashMap());
 		ArrayList menuList=new ArrayList();
@@ -179,7 +179,7 @@ public class UserServiceImpl implements IUserService{
 	@Override
 	public SysUser checkUserBean(Map<String, String> map) throws Exception {
 		// TODO Auto-generated method stub
-		String sql="select su.userid,su.orgid,su.password,su.displayname,su.username,nvl(su.templatestyle,'') templatestyle from sys_user su where 1=1   [  and username='{userName}']  ";
+		String sql="select su.userid,su.orgid,su.password,su.displayname,su.username,ifNull(su.templatestyle,'') templatestyle from sys_user su where 1=1   [  and username='{userName}']  ";
 		//String sql="select su.userid,su.orgid,su.password,su.displayname,su.username from sys_user su where 1=1  and username='"+map.get("userName")+"' ";
 		return (SysUser) baseDao.findOneObject(sql, map, SysUser.class);
 	}

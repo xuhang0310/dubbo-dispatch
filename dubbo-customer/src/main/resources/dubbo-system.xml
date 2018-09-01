@@ -27,6 +27,8 @@
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.github.xupei.dubbo.api.IUserService" id="demoService" check="false"  timeout="90000"/>
     <!-- 声明需要暴露的服务接口 -->
+    <dubbo:reference interface="com.github.xupei.dubbo.api.IBaseService" id="baseService" check="false"  timeout="90000"/>
+    <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.github.xupei.dubbo.api.IRoleService" id="roleService" check="false" timeout="90000" />
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.github.xupei.dubbo.api.ISysOrgService" id="orgService" check="false" timeout="90000" />

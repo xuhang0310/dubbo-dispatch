@@ -59,8 +59,8 @@ public class BaseDao {
 	public Map queryGridList(String sql, Map paramsMap) throws Exception {
 		paramsMap = SqlParser.escape4select(paramsMap);
 		sql = SqlParser.parse(sql, paramsMap);
-		String coutSql="select count(1)  from ("+ sql + ") ";
-		String gridSql=oracleGetSql(sql, Integer.parseInt(paramsMap.get("page").toString()), Integer.parseInt(paramsMap.get("rows").toString())); 
+		String coutSql="select count(1)  from ("+ sql + ") temp";
+		String gridSql=mysqlGetSql(sql, Integer.parseInt(paramsMap.get("page").toString()), Integer.parseInt(paramsMap.get("rows").toString())); 
 		int count=	this.queryForInt( coutSql); 
 		Map gridMap=new HashMap();
 		gridMap.put("total", count);
@@ -71,7 +71,7 @@ public class BaseDao {
 	public Map queryGridListNoPage(String sql, Map paramsMap) throws Exception {
 		paramsMap = SqlParser.escape4select(paramsMap);
 		sql = SqlParser.parse(sql, paramsMap);
-		String coutSql="select count(1)  from ("+ sql + ") ";
+		String coutSql="select count(1)  from ("+ sql + ")   temp";
 		String gridSql=sql;
 		int count=	this.queryForInt( coutSql); 
 		Map gridMap=new HashMap();
@@ -80,6 +80,12 @@ public class BaseDao {
 		return gridMap;
 	}
 	
+	public String mysqlGetSql(String oldSqlStr, int pageNo, int pageSize){
+		int low =  (pageNo - 1) * pageSize + 1;
+		int up = pageNo * pageSize;
+		String sql=oldSqlStr+" limit "+low+" , "+up;
+		return sql;
+	}
 	
 	public String oracleGetSql(String oldSqlStr, int pageNo, int pageSize){
 		int low =  (pageNo - 1) * pageSize + 1;
