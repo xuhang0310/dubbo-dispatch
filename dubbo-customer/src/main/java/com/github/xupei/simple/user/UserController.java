@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.github.xupei.dubbo.api.IFeedService;
+/*import com.github.xupei.dubbo.api.IFeedService;*/
 import com.github.xupei.dubbo.api.IUserService;
 import com.github.xupei.simple.base.BaseController;
 import com.github.xupei.simple.json.JsonUtil;
@@ -47,8 +47,8 @@ public class UserController extends BaseController {
 	@Autowired
 	IUserService userService;
 	
-	@Autowired
-	private IFeedService feedService;
+/*	@Autowired
+	private IFeedService feedService;*/
 	
 	@RequestMapping("/getUserList.do")
 	public void getUserList(HttpServletRequest request, HttpServletResponse response,
@@ -381,7 +381,7 @@ public class UserController extends BaseController {
 	@RequestMapping(value="/toMap.do")
 	public ModelAndView toMap(){
 		
-		ModelAndView model=new ModelAndView();
+		/*ModelAndView model=new ModelAndView();
 		model.setViewName("/jsp/map");
 		//加载热源列表
 		try {
@@ -389,8 +389,8 @@ public class UserController extends BaseController {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		return model;
+		}*/
+		return null;
 	}
 	
 
