@@ -32,20 +32,8 @@ public class UserServiceImpl implements IUserService{
 	public String getSql(Map<String, String> paramMap){
 		
 		StringBuffer sBuffer = new StringBuffer(""); // [and USERNAME IN ('{LoginName}') ] 
-		 sBuffer.append("SELECT usertable.*, bas_powertype.name typevalue"); 
-		 sBuffer.append("  FROM (SELECT T.USERID   ID,"); 
-		 sBuffer.append("               T.*,"); 
-		 sBuffer.append("               O.ORGNAME,"); 
-		 sBuffer.append("               O.PARENTID,"); 
-		 sBuffer.append("               O.ORGID    AS PARAMORGID,"); 
-		 sBuffer.append("               R.ROLENAME,"); 
-		 sBuffer.append("               T.USERID   FUNCTION"); 
-		 sBuffer.append("          FROM SYS_USER T, SYS_ORG O, SYS_ROLE R"); 
-		 sBuffer.append("         WHERE T.ORGID = O.ORGID(+)"); 
-		 sBuffer.append("           AND T.ROLEID = R.ROLEID(+)) usertable"); 
-		 sBuffer.append("  left join bas_powertype"); 
-		 sBuffer.append("    on usertable.usergroup = bas_powertype.id"); 
-		 sBuffer.append(" where DEL = 1");
+		 sBuffer.append("SELECT * from sys_user ");
+
 		 
 		 if(!paramMap.get("username").isEmpty()){
 			 sBuffer.append(" AND (USERNAME LIKE '%" + paramMap.get("username") + "%' "); 
