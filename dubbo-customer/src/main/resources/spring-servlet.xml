@@ -26,14 +26,6 @@
 	       <property name="prefix" value="/" />
 	       <property name="suffix" value=".jsp" />
 	   </bean>
-	   <!--  <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <mvc:exclude-mapping path="/login/login.do"/>
-            <mvc:exclude-mapping path="ws://*"/>
-            <mvc:exclude-mapping path="/nodesoap/insert.do"/>
-            <bean id="loginInterceptor" class="com.simple.dispatch.interceptor.CommonInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>  -->
+
 	
 </beans>

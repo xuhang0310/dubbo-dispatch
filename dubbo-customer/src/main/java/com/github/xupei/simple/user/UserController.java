@@ -53,8 +53,8 @@ public class UserController extends BaseController {
 	@Autowired
 	ApplicationContext applicationContext;
 	
-	@Autowired
-	private ISimplePriceFactory simplePriceFactory;
+	/*@Autowired
+	private ISimplePriceFactory simplePriceFactory;*/
 	
 	@RequestMapping("/getUserList.do")
 	public void getUserList(HttpServletRequest request, HttpServletResponse response,

@@ -45,10 +45,7 @@
 	<!-- 声明需要暴露的服务接口 -->  
     <dubbo:service interface="com.github.xupei.dubbo.api.IBaseService"  ref="baseService" /> 
 
-<!--       具体的实现bean
-	<bean id="pictureService" class="com.github.xupei.simple.sys.service.impl.PictureServiceImpl" />
-	声明需要暴露的服务接口  
-    <dubbo:service interface="com.github.xupei.dubbo.api.IPictureService"  ref="pictureService" />  -->
+
       
 	   <!-- 具体的实现bean -->
 	<bean id="roleManageService" class="com.github.xupei.simple.sys.service.impl.RoleManageServiceImpl" />
@@ -59,11 +56,7 @@
 	<bean id="sysMenuService" class="com.github.xupei.simple.sys.service.impl.SysMenuServiceImpl" />
 	<!-- 声明需要暴露的服务接口 -->  
     <dubbo:service interface="com.github.xupei.dubbo.api.ISysMenuService"  ref="sysMenuService" />
-    
-  <!--      具体的实现bean
-	<bean id="DataParamService" class="com.github.xupei.simple.sys.service.impl.DataParamServiceImpl" />
-	声明需要暴露的服务接口  
-    <dubbo:service interface="com.github.xupei.dubbo.api.IDataParamService"  ref="DataParamService" /> -->
+
     
       <!-- 具体的实现bean -->
 	<bean id="SysConfigService" class="com.github.xupei.simple.sys.service.impl.SysConfigServiceImpl" />

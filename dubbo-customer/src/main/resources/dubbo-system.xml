@@ -38,8 +38,6 @@
     <dubbo:reference interface="com.github.xupei.dubbo.api.IRoleManageService" id="roleManageService" check="false" timeout="90000" />
      <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.github.xupei.dubbo.api.ISysMenuService" id="sysMenuService" check="false" timeout="90000" />
-      <!-- 声明需要暴露的服务接口 -->
-    <dubbo:reference interface="com.github.xupei.dubbo.api.IDataParamService" id="DataParamService" check="false" timeout="90000" />
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="com.github.xupei.dubbo.api.ISysConfigService" id="SysConfigService" check="false" timeout="90000" />
 	

@@ -66,17 +66,17 @@
         </mvc:interceptor>
     </mvc:interceptors>  -->
 
-
+	<!-- dubbo 服务配置 -->
+	<!-- 提供方应用信息，用于计算依赖关系,这个和client没必要一致 -->
 	<dubbo:application name="demo-provider">
 		<dubbo:parameter key="qos.enable" value="true"/>
 		<dubbo:parameter key="qos.accept.foreign.ip" value="false"/>
-		<dubbo:parameter key="qos.port" value="33333"/>
+		<dubbo:parameter key="qos.port" value="22222"/>
 	</dubbo:application>
 
     
-     <!-- dubbo 服务配置 -->  
-      <!-- 提供方应用信息，用于计算依赖关系,这个和client没必要一致 -->  
-    <dubbo:application name="hello-myapp" />  
+
+    <!--<dubbo:application name="hello-myapp" />  -->
     
   
      <!-- 本机 伪集群 测试 -->       
