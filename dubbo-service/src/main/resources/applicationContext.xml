@@ -92,7 +92,7 @@
 	</tx:advice>
 	<!--  配置参与事务的类 -->
 	<aop:config>
-		<aop:pointcut id="allSimpleServiceMethod" expression="execution(* com.simple.*.*.service..*(..))"/>
+		<aop:pointcut id="allSimpleServiceMethod" expression="execution(* com.github.*.*.service..*(..))"/>
 		<aop:advisor pointcut-ref="allSimpleServiceMethod" advice-ref="SimpleAdvice" />
 	</aop:config>
 	<aop:aspectj-autoproxy  />  

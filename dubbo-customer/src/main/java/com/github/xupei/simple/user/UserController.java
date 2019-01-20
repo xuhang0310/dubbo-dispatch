@@ -31,6 +31,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 /*import com.github.xupei.dubbo.api.IFeedService;*/
 import com.github.xupei.dubbo.api.IUserService;
+import com.github.xupei.dubbo.api.user.ISimplePriceFactory;
+import com.github.xupei.dubbo.api.user.PriceStrategy;
 import com.github.xupei.simple.base.BaseController;
 import com.github.xupei.simple.json.JsonUtil;
 import com.github.xupei.simple.shiro.ShiroUser;
@@ -51,8 +53,8 @@ public class UserController extends BaseController {
 	@Autowired
 	ApplicationContext applicationContext;
 	
-/*	@Autowired
-	private IFeedService feedService;*/
+	@Autowired
+	private ISimplePriceFactory simplePriceFactory;
 	
 	@RequestMapping("/getUserList.do")
 	public void getUserList(HttpServletRequest request, HttpServletResponse response,
@@ -212,6 +214,9 @@ public class UserController extends BaseController {
 		try {
 			List list=userService.getUserRightList("32");
 			applicationContext.publishEvent(new UserLoginEvent(user));
+			/*PriceStrategy priceStrategy=simplePriceFactory.createNoodles(1);
+			double price=priceStrategy.calPrice();*/
+			
 			JsonUtil.returnListJson(list,response);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

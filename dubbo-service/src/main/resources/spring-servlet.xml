@@ -65,7 +65,14 @@
             <bean id="loginInterceptor" class="com.simple.dispatch.interceptor.CommonInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>  -->
-    
+
+
+	<dubbo:application name="demo-provider">
+		<dubbo:parameter key="qos.enable" value="true"/>
+		<dubbo:parameter key="qos.accept.foreign.ip" value="false"/>
+		<dubbo:parameter key="qos.port" value="33333"/>
+	</dubbo:application>
+
     
      <!-- dubbo 服务配置 -->  
       <!-- 提供方应用信息，用于计算依赖关系,这个和client没必要一致 -->  

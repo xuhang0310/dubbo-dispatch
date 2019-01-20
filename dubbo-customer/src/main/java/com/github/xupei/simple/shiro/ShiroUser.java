@@ -3,6 +3,7 @@ package com.github.xupei.simple.shiro;
 import java.io.Serializable;
 import java.util.Set;
 
+
 public class ShiroUser implements Serializable {
     private static final long serialVersionUID = -1373760761780840081L;
     
@@ -12,6 +13,8 @@ public class ShiroUser implements Serializable {
     private Set<String> urlSet;
     private Set<String> roles;
     private String skintemplate;
+    
+    
     
     
     
@@ -81,4 +84,8 @@ public class ShiroUser implements Serializable {
     public String toString() {
         return loginName;
     }
+
+	
+    
+    
 }

@@ -145,7 +145,7 @@
              	/img/**=anon
              	/images/**=anon
             	/css/**=anon
-                /** = user,forceLogout,kickout
+                /** = user,forceLogout,kickout 
             </value>
         </property>
     </bean>
