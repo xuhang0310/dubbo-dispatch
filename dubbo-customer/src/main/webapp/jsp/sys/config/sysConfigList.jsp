@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>生产调度系统</title>
+        <title>后台管理系统</title>
        
         <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
         <script src="<%= request.getContextPath() %>/js/jquery-1.10.2.min.js"></script>

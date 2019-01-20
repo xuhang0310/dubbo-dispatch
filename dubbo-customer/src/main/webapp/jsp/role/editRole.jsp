@@ -11,7 +11,7 @@
 <html>
 <head>
         <meta charset="UTF-8">
-        <title>生产调度系统</title>
+        <title>后台管理系统</title>
        
         <script src="<%= request.getContextPath() %>/js/jquery-1.10.2.min.js"></script>
         <%@ include file="/jsp/header.jsp"%>
