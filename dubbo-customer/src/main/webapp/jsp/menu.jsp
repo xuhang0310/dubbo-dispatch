@@ -14,7 +14,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
     <head>
 		<meta charset="utf-8" />
-		<title>生产调度系统</title>
+		<title>后台管理系统</title>
 		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
 		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -93,7 +93,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<a href="#" class="navbar-brand">
 						<small>
 						<%-- 	<img id="logoBgImg" style="height: 25px; width: 190px;" src="<%=path %>/images/logo.png"> --%>
-							生产调度系统
+							后台管理系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->

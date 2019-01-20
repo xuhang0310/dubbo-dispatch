@@ -72,7 +72,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </form>
   </div>
 </div>
-<div class="footer">Copyright 博达股份</div>
+<div class="footer">Copyright #####</div>
 <script type="text/javascript" src="<%=path%>/jslib/jquery/1.9.1/jquery.min.js"></script> 
 <script type="text/javascript" src="<%=path%>/js/H-ui.js"></script> 
 <script>
