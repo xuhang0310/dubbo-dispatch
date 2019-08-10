@@ -8,12 +8,13 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import com.github.xupei.simple.util.SqlParser;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.github.xupei.simple.util.SqlParser;
+//import com.github.xupei.simple.util.SqlParser;
 
 @Repository
 public class BaseDao {
@@ -30,7 +31,7 @@ public class BaseDao {
 	}
 	
 	public List<Map<String,Object>> findAll(String sql,Map<String,String> paramsMap) throws Exception{
-		paramsMap=SqlParser.escape4select(paramsMap);
+		paramsMap= SqlParser.escape4select(paramsMap);
 		sql = SqlParser.parse(sql, paramsMap);
 		return this.jdbcTemplate.queryForList(sql);
 		

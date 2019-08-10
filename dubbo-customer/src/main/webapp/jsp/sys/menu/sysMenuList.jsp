@@ -91,42 +91,42 @@
   	</div>
      
     <div class="col-sm-10">
-    <div class="row">
-		<div class="col-sm-12"> 
-		 <form id="listForm" name="listForm">
-		    
-			     <input type="hidden" class="input-text" style="width:250px" placeholder="输入关键词" id="menuid" name="menuid">
-				 <input type="text" class="input-text" style="width:250px" placeholder="请输入菜单名称" id="menuname" name="menuname">
-				<a href="javascript:search()" class="btn btn-success radius" ><i class="icon-search"></i> 查询</a>
-				<shiro:hasPermission name="/jsp/sys/menu/addMenu">
-				  <span><a class="btn btn-primary radius"  onclick="layer_show('添加菜单','<%= request.getContextPath() %>/menu/addMenuList.do','500')"><i class="icon-edit"></i> 添加菜单</a> </span>
-	            </shiro:hasPermission>
-		 </form>
-		 
-			
-		</div>
-    </div>
+			<div class="row">
+						<div class="col-sm-12"> 
+						 <form id="listForm" name="listForm">
+							
+								 <input type="hidden" class="input-text" style="width:250px" placeholder="输入关键词" id="menuid" name="menuid">
+								 <input type="text" class="input-text" style="width:250px" placeholder="请输入菜单名称" id="menuname" name="menuname">
+								<a href="javascript:search()" class="btn btn-success radius" ><i class="icon-search"></i> 查询</a>
+								<shiro:hasPermission name="/jsp/sys/menu/addMenu">
+								  <span><a class="btn btn-primary radius"  onclick="layer_show('添加菜单','<%= request.getContextPath() %>/menu/addMenuList.do','500')"><i class="icon-edit"></i> 添加菜单</a> </span>
+								</shiro:hasPermission>
+						 </form>
+						 
+							
+						</div>
+			</div>
     
 
-    <div class="row" style="margin-top:10px;">
-         <div class="col-sm-12">
-         
-              <!-- 检索  -->
-			
-			  <div class="tab-pane active">
-					<!-- 检索  -->
-			   		<table id="table" class="divmatnrdesc"
-			           data-id-field="id"
-			           data-click-to-select="true"
-			           data-page-list="[10, 25, 50, 100]">
-		           </table>
+			<div class="row" style="margin-top:10px;">
+							 <div class="col-sm-12">
+							 
+								  <!-- 检索  -->
+								
+								  <div class="tab-pane active">
+										<!-- 检索  -->
+										<table id="table" class="divmatnrdesc"
+										   data-id-field="id"
+										   data-click-to-select="true"
+										   data-page-list="[10, 25, 50, 100]">
+									   </table>
+								  </div>
+							 
+							 </div>
+					
+					
+				  
 			  </div>
-         
-         </div>
-			
-			
-          
-	  </div>
 	  </div>
  </div> 
 	<script type="text/javascript">
@@ -159,8 +159,8 @@
 		            	width: 40,
 		            	formatter: function (value, row, index) {
 		            	    //获取每页显示的数量
-		            	    var pageSize=$('#table').bootstrapTable('getOptions').pageSize;  
-		            	    //获取当前是第几页  
+		            	    var pageSize=$('#table').bootstrapTable('getOptions').pageSize;
+		            	    //获取当前是第几页
 		            	    var pageNumber=$('#table').bootstrapTable('getOptions').pageNumber;
 		            	    //返回序号，注意index是从0开始的，所以要加上1
 		            	    return pageSize * (pageNumber - 1) + index + 1;

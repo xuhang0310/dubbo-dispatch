@@ -13,16 +13,19 @@
 	    <maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
    <dependencies>
+       <dependency>
+           <groupId>cn.com.github.bdxc</groupId>
+           <artifactId>dubbo-common</artifactId>
+           <version>0.1-SNAPSHOT</version>
+           <type>jar</type>
+       </dependency>
      <dependency>
      	  <groupId>cn.com.github.bdxc</groupId>
            <artifactId>dubbo-api</artifactId>
            <version>0.1-SNAPSHOT</version>
+           <type>jar</type>
      </dependency>
-     <dependency>
-     	  <groupId>cn.com.github.bdxc</groupId>
-           <artifactId>dubbo-common</artifactId>
-           <version>0.1-SNAPSHOT</version>
-     </dependency>
+
      			<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
